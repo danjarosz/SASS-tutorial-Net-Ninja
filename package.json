@@ -1,0 +1,16 @@
+{
+  "name": "NetNinja-SASS-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:danjarosz/SASS-tutorial-Net-Ninja.git",
+  "author": "danjarosz <jarosz.daniel@protonmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.43.4"
+  }
+}
