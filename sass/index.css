@@ -27,16 +27,18 @@ img {
   max-width: 100%;
 }
 
+@use "sass:math";
 .card {
   display: block;
   padding: 0.75rem;
   border: 1px solid #ddd;
   -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
           box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px, 4;
 }
 
 .card .card-title {
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding-bottom: 0.75rem;
   font-weight: bold;
 }
